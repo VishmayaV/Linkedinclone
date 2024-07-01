@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="./images/logo.png"/></a>
+            <div class="search-box">
+                <img src="./images/search.png"/>
+                <input type="text" placeholder="search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="./images/home.png"/><span>Home</span></a></li>
+                <li><a href="#"><img src="./images/network.png"/><span>My Network</span></a></li>
+                <li><a href="#"><img src="./images/jobs.png"/><span>Jobs</span></a></li>
+                <li><a href="#"><img src="./images/message.png"/><span>Messaging</span></a></li>
+                <li><a href="#"><img src="./images/notification.png"/><span>Notification</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="./images/vishuzz.jpg" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+        <!-- profile drop down -->
+         <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="./images/vishuzz.jpg">
+                    <div>
+                        <h3>Vishmaya V</h3>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="./images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./images/setting.png">
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./images/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./images/display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+         </div>
+    </nav>
+<!-- nav close -->
+
+<div class="container">
+    <div class="profile-main">
+        <div class="profile-container">
+            <img src="./images/cover.jpg" width="100%">
+            <div class="profile-container-inner">
+                <img src="./images/vishuzz.jpg" class="profile-pic">
+                <h1>Vishmaya V</h1>
+                <b>Intern at DuratechSolutions</b>
+                <p>Sri Krishna College of Technology, Coimbatore <a href="#">Contact info</a></p>
+                <div class="mutualconnection">
+                    <img src="./images/user-2.png">
+                    <span>1 mutual connection: Orlando Diggs</span>
+                </div>
+                <div class="profile-btn">
+                    <a href="#" class="primary-btn"><img src="./images/connect.png">Connect</a>
+                    <a href="#"><img src="./images/chat.png">Message</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="profile-description">
+            <h2>About</h2>
+            <p>I am an aspiring web developer skilled in front-end technologies such as HTML, CSS, JavaScript, 
+                and React. I am committed to mastering back-end skills in MongoDB, Node.js, and Express.js. 
+                As a quick learner with strong leadership and communication skills, I am dedicated to continuous growth and 
+                making meaningful contributions to my projects and team.</p>
+            <a href="#" class="see-more-link">See more...</a>
+        </div>
+        <div class="profile-description">
+            <h2>Experience</h2>
+            <div class="profile-description-row">
+                <img src="./images/DuratechSolutions-1.webp">
+                <div>
+                    <h3>Project Intern</h3>
+                    <b>DuratechSolutions &middot; Intern</b>
+                    <b>June 2024 - July 2024 &middot 2 months</b>
+                    <p>Developed LMS application using Jhipster services.</p>
+             
+                </div>
+
+            </div>
+            <hr>
+            <a href="#" class="experience-link">Show all 7 experiences<img src="./images/right-arrow.png"></a>
+        </div>
+        <div class="profile-description">
+            <h2>Education</h2>
+            <div class="profile-description-row">
+                <img src="./images/skct.jpg">
+                <div>
+                    <h3>Sri Krishna College of Technology</h3>
+                    <b>Btech-Information Technology </b>
+                    <b>2022-2026</b>
+                    <b>Cgpa - 8.5</b>
+               
+                </div>
+            </div>
+        </div>
+        <div class="profile-description">
+            <h2>Skills</h2>
+            <a href="#" class="skills-btn">Leadership</a>
+            <a href="#" class="skills-btn">Communication</a>
+            <a href="#" class="skills-btn">Web Development</a>
+            <a href="#" class="skills-btn">Java</a>
+            <a href="#" class="skills-btn">Excel</a>
+            <a href="#" class="skills-btn">SQL</a>
+        </div>
+        <div class="profile-description">
+            <h2>Languages</h2>
+            <a href="#" class="language-btn">English</a>
+            <a href="#" class="language-btn">Tamil</a>
+            <a href="#" class="language-btn">Telugu</a>
+            <a href="#" class="language-btn">Malayalam</a>
+            <a href="#" class="language-btn">Hindi</a>
+            
+
+        </div>
+    </div>
+    
+    <div class="profile-sidebar">
+
+        <div class="sidebar-ad">
+            <small>Ad &middot; &middot; &middot;</small>
+            <p>Master the 5 principles of web design</p>
+            <div>
+                <img src="./images/vishuzz.jpg">
+                <img src="./images/mi-logo.png">
+            </div>
+            <b>Brand and Demand in Xiaomi</b>
+            <a href="#" class="ad-link">Learn More</a>
+        </div>
+        <div class="sidebar-people">
+            <h3>People you may know</h3>
+            <div class="sidebar-people-row">
+                <img src="./images/user-3.png">
+                <div>
+                    <h2>Sameul Tony</h2>
+                    <p>Head of Marketing at Alibaba</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="./images/user-4.png">
+                <div>
+                    <h2>Benjamin Leo</h2>
+                    <p>Business Coach</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="./images/user-5.png">
+                <div>
+                    <h2>Steave Greg</h2>
+                    <p>Software engineer at Microsoft</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="./images/user-2.png">
+                <div>
+                    <h2>George</h2>
+                    <p>Product Manager</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="profile-footer">
+    <div class="sidebar-useful-links">
+        <a href="#">About</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Help Center</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Advertising</a>
+        <a href="#">Get the App</a>
+        <a href="#">More</a>
+        <div class="copyright-msg">
+            <img src="images/logo.png">
+            <p>Linkedin &#169; 2024. All right reserved</p>
+        </div>
+    </div>
+</div>
+
+
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+        function toggleMenu()
+        {
+    profileMenu.classList.toggle("open-menu");
+        }
+    </script>
+    
+    </body>
+    </html>
